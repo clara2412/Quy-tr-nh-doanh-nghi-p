@@ -81,6 +81,7 @@
       <bpmn:incoming>Flow_1mzeuy3</bpmn:incoming>
       <bpmn:outgoing>Flow_0brled6</bpmn:outgoing>
     </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="Gateway_0l104bf" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_00ak2wn">
@@ -209,6 +210,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1xhhhjm_di" bpmnElement="Activity_01y4xwj">
         <dc:Bounds x="1720" y="430" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_0l104bf_di" bpmnElement="Gateway_0l104bf" isMarkerVisible="true">
+        <dc:Bounds x="1005" y="625" width="50" height="50" />
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
