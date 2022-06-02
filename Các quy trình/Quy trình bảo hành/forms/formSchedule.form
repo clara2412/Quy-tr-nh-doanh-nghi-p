@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Schedule",
+      "type": "text",
+      "id": "Field_0qjwvho"
+    },
+    {
+      "label": "Vị trí ",
+      "type": "textfield",
+      "id": "Field_034dwrw",
+      "key": "field_0o8bxv5",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Thời gian",
+      "type": "textfield",
+      "id": "Field_1h9gk18",
+      "key": "field_0t59tuo",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "formSchedule"
+}

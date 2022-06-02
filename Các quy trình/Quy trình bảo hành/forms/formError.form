@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Hư hỏng màn hình",
+          "value": "value"
+        },
+        {
+          "label": "Màn hình + Mặt sau",
+          "value": "value"
+        },
+        {
+          "label": "Màn hình + Nước",
+          "value": "value"
+        },
+        {
+          "label": "Màn hình + Bo mạch",
+          "value": "value"
+        },
+        {
+          "label": "Màn hình + Rear + Bo mạch",
+          "value": "value"
+        }
+      ],
+      "label": "Hư hỏng màn hình",
+      "type": "select",
+      "id": "Field_0euubp6",
+      "key": "loi1"
+    },
+    {
+      "values": [
+        {
+          "label": "Hư hỏng vật lý",
+          "value": "value"
+        },
+        {
+          "label": "Hư hỏng do nước",
+          "value": "value"
+        }
+      ],
+      "label": "Hư hỏng khác ",
+      "type": "select",
+      "id": "Field_0xisiai",
+      "key": "loi2"
+    },
+    {
+      "values": [
+        {
+          "label": "Đen màn hình",
+          "value": "value"
+        },
+        {
+          "label": "Lỗi màn hình",
+          "value": "value"
+        },
+        {
+          "label": "Sọc màn hình",
+          "value": "value"
+        },
+        {
+          "label": "Điểm chết/ Lỗi điểm ảnh",
+          "value": "value"
+        },
+        {
+          "label": "Màn hình chớp tắt",
+          "value": "value"
+        },
+        {
+          "label": "Lỗi cảm ứng",
+          "value": "value"
+        }
+      ],
+      "label": "Màn hình",
+      "type": "select",
+      "id": "Field_1n6nyxe",
+      "key": "loi3"
+    },
+    {
+      "values": [
+        {
+          "label": "Không nguồn",
+          "value": "value"
+        },
+        {
+          "label": "Tự tắt nguồn",
+          "value": "value"
+        },
+        {
+          "label": "Tự tắt nguồn lặp lại",
+          "value": "value"
+        },
+        {
+          "label": "Phím nguồn",
+          "value": "value"
+        }
+      ],
+      "label": "Nguồn",
+      "type": "select",
+      "id": "Field_04r84i6",
+      "key": "loi4"
+    },
+    {
+      "values": [
+        {
+          "label": "Không sạc",
+          "value": "value"
+        },
+        {
+          "label": "Lỗi sạc khác",
+          "value": "value"
+        },
+        {
+          "label": "Hư hỏng pin vật lý",
+          "value": "value"
+        },
+        {
+          "label": "Hư hỏng bộ sạc vật lý",
+          "value": "value"
+        },
+        {
+          "label": "Hao pin",
+          "value": "value"
+        },
+        {
+          "label": "Sạc chậm",
+          "value": "value"
+        },
+        {
+          "label": "Sạc không dây",
+          "value": "value"
+        }
+      ],
+      "label": "Sạc pin/pin/Bộ sạc",
+      "type": "select",
+      "id": "Field_0duipn5",
+      "key": "loi5"
+    },
+    {
+      "values": [
+        {
+          "label": "Loa",
+          "value": "value"
+        },
+        {
+          "label": "Tai nghe",
+          "value": "value"
+        },
+        {
+          "label": "Mic",
+          "value": "value"
+        },
+        {
+          "label": "Rung",
+          "value": "value"
+        },
+        {
+          "label": "Phím âm lượng",
+          "value": "value"
+        },
+        {
+          "label": "Chất lượng âm thanh",
+          "value": "value"
+        }
+      ],
+      "label": "Âm thanh/ Rung",
+      "type": "select",
+      "id": "Field_18jehvt",
+      "key": "loi6"
+    },
+    {
+      "values": [
+        {
+          "label": "Không có dịch vụ",
+          "value": "value"
+        },
+        {
+          "label": "Không tín hiệu",
+          "value": "value"
+        },
+        {
+          "label": "Tín hiệu yếu(Cuộc gọi)",
+          "value": "value"
+        },
+        {
+          "label": "Chất lượng cuộc gọi",
+          "value": "value"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "value"
+        },
+        {
+          "label": "Wifi",
+          "value": "value"
+        },
+        {
+          "label": "Value",
+          "value": "value"
+        },
+        {
+          "label": "GPS",
+          "value": "value"
+        }
+      ],
+      "label": "Mạng",
+      "type": "select",
+      "id": "Field_05gug17",
+      "key": "loi7"
+    },
+    {
+      "values": [
+        {
+          "value": "value",
+          "label": "Máy ảnh sau "
+        },
+        {
+          "label": "Máy ảnh trước",
+          "value": "value"
+        },
+        {
+          "label": "Đèn Flash",
+          "value": "value"
+        }
+      ],
+      "label": "Máy ảnh",
+      "type": "select",
+      "id": "Field_07zrq79",
+      "key": "loi8"
+    },
+    {
+      "values": [
+        {
+          "label": "Cập nhật phần mềm ",
+          "value": "value"
+        },
+        {
+          "label": "Sao lưu dữ liệu",
+          "value": "value"
+        },
+        {
+          "label": "Lỗi ứng dụng",
+          "value": "value"
+        },
+        {
+          "label": "Treo máy",
+          "value": "value"
+        },
+        {
+          "label": "Nóng máy",
+          "value": "value"
+        },
+        {
+          "label": "Chậm máy",
+          "value": "value"
+        },
+        {
+          "label": "Hệ điều hành",
+          "value": "value"
+        }
+      ],
+      "label": "Phần mềm/ Hiệu ứng",
+      "type": "select",
+      "id": "Field_0xilgpe",
+      "key": "loi9"
+    },
+    {
+      "values": [
+        {
+          "label": "Khóa",
+          "value": "value"
+        }
+      ],
+      "label": "Khóa",
+      "type": "select",
+      "id": "Field_07nua7k",
+      "key": "loi10"
+    },
+    {
+      "values": [
+        {
+          "label": "Bộ sạc",
+          "value": "value"
+        },
+        {
+          "label": "Tai nghe",
+          "value": "value"
+        },
+        {
+          "label": "S Pen",
+          "value": "value"
+        }
+      ],
+      "label": "Phụ kiện",
+      "type": "select",
+      "id": "Field_0xego2m",
+      "key": "loi11"
+    },
+    {
+      "label": "Khác",
+      "type": "textfield",
+      "id": "Field_0wk7bej",
+      "key": "loi12"
+    }
+  ],
+  "type": "default",
+  "id": "formError"
+}
