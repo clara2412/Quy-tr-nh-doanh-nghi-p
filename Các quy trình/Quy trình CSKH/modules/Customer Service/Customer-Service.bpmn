@@ -162,14 +162,6 @@
       <bpmn:incoming>Flow_0mft809</bpmn:incoming>
       <bpmn:outgoing>Flow_0pm4hz9</bpmn:outgoing>
     </bpmn:task>
-    <bpmn:task id="Activity_1cfszhj" name="Send PIN Number">
-      <bpmn:incoming>Flow_1odkroc</bpmn:incoming>
-      <bpmn:outgoing>Flow_1qbnmk4</bpmn:outgoing>
-    </bpmn:task>
-    <bpmn:userTask id="Activity_0jy34ad" name="Check PIN Number">
-      <bpmn:incoming>Flow_1qbnmk4</bpmn:incoming>
-      <bpmn:outgoing>Flow_0sz3ook</bpmn:outgoing>
-    </bpmn:userTask>
     <bpmn:task id="Activity_171yhzj" name="Send request to Warranty Repair process">
       <bpmn:incoming>Flow_1h8mrgr</bpmn:incoming>
       <bpmn:outgoing>Flow_0w0arvt</bpmn:outgoing>
@@ -181,6 +173,14 @@
     <bpmn:task id="Activity_0wz60f8" name="Send request to Payment process">
       <bpmn:incoming>Flow_09blddt</bpmn:incoming>
       <bpmn:outgoing>Flow_1vz8fmz</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:serviceTask id="Activity_1cfszhj" name="Send PIN Number" camunda:type="external" camunda:topic="sendSmsPIN">
+      <bpmn:incoming>Flow_1odkroc</bpmn:incoming>
+      <bpmn:outgoing>Flow_1qbnmk4</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:task id="Activity_0jy34ad" name="Check PIN Number">
+      <bpmn:incoming>Flow_1qbnmk4</bpmn:incoming>
+      <bpmn:outgoing>Flow_0sz3ook</bpmn:outgoing>
     </bpmn:task>
   </bpmn:process>
   <bpmn:message id="Message_0ht89q2" name="Message_2ve2gir" />
@@ -429,12 +429,6 @@
       <bpmndi:BPMNShape id="Activity_0pmeohn_di" bpmnElement="Activity_13mk2qk">
         <dc:Bounds x="890" y="430" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1tuay8p_di" bpmnElement="Activity_1cfszhj">
-        <dc:Bounds x="1100" y="580" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_139usob_di" bpmnElement="Activity_0jy34ad">
-        <dc:Bounds x="1250" y="580" width="100" height="80" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0o95y2d_di" bpmnElement="Activity_171yhzj">
         <dc:Bounds x="2060" y="310" width="100" height="80" />
       </bpmndi:BPMNShape>
@@ -443,6 +437,12 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_161phbf_di" bpmnElement="Activity_0wz60f8">
         <dc:Bounds x="2060" y="540" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0pr99ki_di" bpmnElement="Activity_1cfszhj">
+        <dc:Bounds x="1100" y="580" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0rxvcur_di" bpmnElement="Activity_0jy34ad">
+        <dc:Bounds x="1250" y="580" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1ngnuzo_di" bpmnElement="Event_02d9gn3">
         <dc:Bounds x="1472" y="292" width="36" height="36" />
