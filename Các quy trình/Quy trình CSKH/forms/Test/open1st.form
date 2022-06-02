@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Askfor feedback",
+      "type": "text",
+      "id": "Field_1sem246"
+    },
+    {
+      "label": "Customer's feed back",
+      "type": "textfield",
+      "id": "Field_0l9iohz",
+      "key": "customerFeedback",
+      "description": "What is Customer's feed back",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "good|bad"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "feedbackForm",
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.16"
+}

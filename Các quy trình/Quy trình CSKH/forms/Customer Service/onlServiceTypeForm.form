@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Online Service",
+      "type": "text",
+      "id": "Field_0wmrqab"
+    },
+    {
+      "values": [
+        {
+          "label": "Feedback"
+        },
+        {
+          "label": "Sign Language Support"
+        },
+        {
+          "label": "Online Councelling 24/7"
+        }
+      ],
+      "label": "Online Service Type",
+      "type": "select",
+      "id": "Field_0fy4sjs",
+      "key": "onlServiceType"
+    }
+  ],
+  "type": "default",
+  "id": "onlServiceTypeForm"
+}

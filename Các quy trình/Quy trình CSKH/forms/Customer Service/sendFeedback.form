@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# General Questions",
+      "type": "text",
+      "id": "Field_1iq8xst"
+    },
+    {
+      "values": [
+        {
+          "label": "Mobile Phone"
+        },
+        {
+          "label": "General Questions"
+        }
+      ],
+      "label": "Product Type",
+      "type": "select",
+      "id": "Field_0fk439n",
+      "key": "productType",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "text": "# Contact Info",
+      "type": "text",
+      "id": "Field_0f3aigy"
+    },
+    {
+      "label": "Name",
+      "type": "textfield",
+      "id": "Field_01jr6ew",
+      "key": "userName",
+      "description": "EX: Thúy Hà",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Surname",
+      "type": "textfield",
+      "id": "Field_05ixe7l",
+      "key": "userSurname",
+      "description": "EX: Nguyễn",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Email address",
+      "type": "textfield",
+      "id": "Field_0vpjf8h",
+      "key": "userEmail",
+      "description": "EX: abc@gmail.com",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Phone Number",
+      "type": "textfield",
+      "id": "Field_1fw4qw9",
+      "key": "phoneNumber",
+      "description": "EX: 0912345678",
+      "validate": {
+        "maxLength": 11,
+        "required": true
+      }
+    },
+    {
+      "label": "Please select if you are a Business Customer",
+      "type": "checkbox",
+      "id": "Field_16cnw1c",
+      "key": "isBusinessUser"
+    },
+    {
+      "text": "# Request",
+      "type": "text",
+      "id": "Field_1ny50fp"
+    },
+    {
+      "label": "Email Subject",
+      "type": "textfield",
+      "id": "Field_1866mf0",
+      "key": "emailSubject",
+      "description": "EX: Warranty period",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Email Content",
+      "type": "textfield",
+      "id": "Field_0peywyd",
+      "key": "emailContent",
+      "description": "Describe problems",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Attachment",
+      "type": "textfield",
+      "id": "Field_0ttb7wx",
+      "key": "fileAttachment"
+    },
+    {
+      "label": "I have read and agree to the Samsung Privacy Policy.",
+      "type": "checkbox",
+      "id": "Field_1fb66nk",
+      "key": "isAcceptPrivacyPolicy"
+    }
+  ],
+  "type": "default",
+  "id": "feedbackForm"
+}

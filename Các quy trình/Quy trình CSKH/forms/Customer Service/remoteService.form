@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Remote Service",
+      "type": "text",
+      "id": "Field_0cmn2a1"
+    },
+    {
+      "label": "Full Name",
+      "type": "textfield",
+      "id": "Field_0wcf99u",
+      "key": "userFullName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Phone Number",
+      "type": "textfield",
+      "id": "Field_0gb8m7o",
+      "key": "userPhoneNumber",
+      "validate": {
+        "required": true,
+        "maxLength": 11
+      }
+    }
+  ],
+  "type": "default",
+  "id": "remoteService"
+}

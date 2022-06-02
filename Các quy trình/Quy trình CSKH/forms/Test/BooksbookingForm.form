@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Book's booking form",
+      "type": "text",
+      "id": "Field_0fjthrh"
+    },
+    {
+      "label": "Name of the Book",
+      "type": "textfield",
+      "id": "Field_1w43wtm",
+      "key": "bookName",
+      "description": "write a name here",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Address",
+      "type": "textfield",
+      "id": "Field_1gerdqs",
+      "key": "customerAddress",
+      "description": "Customer's address",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Customer's Email",
+      "type": "textfield",
+      "id": "Field_1boxcg1",
+      "key": "customerEmail",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Type of City",
+      "type": "textfield",
+      "id": "Field_14n4cfr",
+      "key": "cityType",
+      "description": "Urban or Suburan",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "Urban|Suburban"
+      }
+    },
+    {
+      "label": "Day receive",
+      "type": "textfield",
+      "id": "Field_044dz84",
+      "key": "dayReceive",
+      "description": "dd/mm/yyyy",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "bookingForm"
+}

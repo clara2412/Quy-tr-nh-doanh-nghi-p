@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# What service do you want to use?",
+      "type": "text",
+      "id": "Field_0fwvks0"
+    },
+    {
+      "values": [
+        {
+          "label": "Onlince Service"
+        },
+        {
+          "label": "Remote Service"
+        }
+      ],
+      "label": "Service Type",
+      "type": "select",
+      "id": "Field_037ehcs",
+      "key": "serviceType",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "chooseServiceType"
+}

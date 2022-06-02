@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Connect with SAMSUNG support",
+      "type": "text",
+      "id": "Field_1g4k93q"
+    },
+    {
+      "label": "Full Name",
+      "type": "textfield",
+      "id": "Field_0nd0ygj",
+      "key": "userFullName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Phone Number",
+      "type": "textfield",
+      "id": "Field_1cvx9fl",
+      "key": "userPhoneNumber",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Email",
+      "type": "textfield",
+      "id": "Field_0rh0lhl",
+      "key": "userEmail",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Your Problems",
+      "type": "textfield",
+      "id": "Field_0umiw3j",
+      "key": "userProb",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "onlineCouncelling"
+}

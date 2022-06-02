@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Connect with SAMSUNG support",
+      "type": "text",
+      "id": "Field_1mfz326"
+    },
+    {
+      "label": "Email or Phone Number",
+      "type": "textfield",
+      "id": "Field_1dqc16n",
+      "key": "eUserAddress",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Name",
+      "type": "textfield",
+      "id": "Field_0pzhhz9",
+      "key": "userName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Surname",
+      "type": "textfield",
+      "id": "Field_1uud7hv",
+      "key": "userSurname",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "signLanguageSupport"
+}

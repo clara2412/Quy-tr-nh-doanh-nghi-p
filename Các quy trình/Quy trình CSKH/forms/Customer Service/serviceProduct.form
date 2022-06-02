@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Service Product Type",
+      "type": "text",
+      "id": "Field_02uo15q"
+    },
+    {
+      "values": [
+        {
+          "label": "Warranty Repair"
+        },
+        {
+          "label": "Return Period"
+        },
+        {
+          "label": "Payment Method"
+        }
+      ],
+      "label": "Select Type",
+      "type": "select",
+      "id": "Field_1wlntwn",
+      "key": "serviceProductType",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "serviceProduct"
+}

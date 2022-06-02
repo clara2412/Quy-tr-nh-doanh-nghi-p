@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Test Form",
+      "type": "text",
+      "id": "Field_1c3k6bd"
+    },
+    {
+      "label": "How much",
+      "type": "textfield",
+      "id": "Field_1d5669p",
+      "key": "moneyValue",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "asasd",
+      "type": "textfield",
+      "id": "Field_0hxgkyz",
+      "key": "field_0x8bdek",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "testForm"
+}
