@@ -4,7 +4,8 @@ const { text } = require("stream/consumers");
 const config = { baseUrl: "http://localhost:8080/engine-rest", use: logger };
 const client = new Client(config);
 var pinCode;
-
+const lhPhoneNumber = '925624469';
+const thaPhoneNumber = '913715909';
 client.subscribe("sendSmsPIN", async function({ task, taskService }) {
     const Vonage = require('@vonage/server-sdk');
     const vonage = new Vonage({
@@ -15,7 +16,7 @@ client.subscribe("sendSmsPIN", async function({ task, taskService }) {
     pinCode = Math.floor(Math.random() * 9999) + 900;  
 
     const from = "SAMSUNG";
-    const to = "84925624469";
+    const to = `84${thaPhoneNumber}`;
     const text =   `PIN: ${pinCode}`;
 
     vonage.message.sendSms(from, to, text, (err, responseData) => {
