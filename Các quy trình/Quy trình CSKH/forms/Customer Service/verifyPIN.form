@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Verify PIN Number",
+      "type": "text",
+      "id": "Field_10a7bq0"
+    },
+    {
+      "label": "PIN",
+      "type": "textfield",
+      "id": "Field_1bcanyb",
+      "key": "pinCode",
+      "validate": {
+        "required": true,
+        "minLength": 4
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_05dj0u3"
+}

@@ -1,1 +1,2 @@
-console.log(Math.floor(Math.random() * 9999) + 900)
+const a = 10;
+module.exports = a;
