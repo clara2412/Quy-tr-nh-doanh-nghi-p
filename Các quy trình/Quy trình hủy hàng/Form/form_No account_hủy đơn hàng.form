@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Code orders",
+      "type": "textfield",
+      "id": "Field_0aw8adn",
+      "key": "field_1cu4n4t",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Email",
+      "type": "textfield",
+      "id": "Field_07cwh6c",
+      "key": "field_0rjb2s9",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Noaccount"
+}
