@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Email",
+      "type": "textfield",
+      "id": "Field_1xzdeez",
+      "key": "field_1vgy892",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Password",
+      "type": "textfield",
+      "id": "Field_1u1udp4",
+      "key": "field_0sk1w9m",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "value": "value",
+          "label": "Remember my ID"
+        }
+      ],
+      "type": "radio",
+      "id": "Field_1lmu8u4",
+      "key": "field_0ltnc1p",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "login"
+}
