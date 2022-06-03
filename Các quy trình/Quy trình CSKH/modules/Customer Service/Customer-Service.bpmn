@@ -176,15 +176,14 @@
       <bpmn:incoming>Flow_060a46y</bpmn:incoming>
       <bpmn:outgoing>Flow_0z3n4qm</bpmn:outgoing>
     </bpmn:userTask>
-    <bpmn:startEvent id="requestReceive" name="Request received">
-      <bpmn:outgoing>Flow_1mk6lm5</bpmn:outgoing>
-      <bpmn:messageEventDefinition id="MessageEventDefinition_01hcjmz" messageRef="Message_19aenqf" />
-    </bpmn:startEvent>
     <bpmn:startEvent id="Event_1kleb5j" name="Connect Request received">
       <bpmn:outgoing>Flow_07i4wb3</bpmn:outgoing>
       <bpmn:messageEventDefinition id="MessageEventDefinition_05sn2e0" messageRef="Message_0ht89q2" />
     </bpmn:startEvent>
     <bpmn:sequenceFlow id="Flow_07i4wb3" sourceRef="Event_1kleb5j" targetRef="Activity_1gy37yq" />
+    <bpmn:startEvent id="requestReceive" name="Request received">
+      <bpmn:outgoing>Flow_1mk6lm5</bpmn:outgoing>
+    </bpmn:startEvent>
   </bpmn:process>
   <bpmn:message id="Message_0ht89q2" name="Message_2ve2gir1" />
   <bpmn:process id="Process_0hski32" isExecutable="false">
@@ -463,16 +462,16 @@
       <bpmndi:BPMNShape id="Activity_1ygtchd_di" bpmnElement="Activity_0x9775a">
         <dc:Bounds x="950" y="890" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_08bleb7_di" bpmnElement="requestReceive">
-        <dc:Bounds x="222" y="672" width="36" height="36" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="197" y="715" width="86" height="14" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_02nafvf_di" bpmnElement="Event_1kleb5j">
         <dc:Bounds x="1472" y="572" width="36" height="36" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="1447" y="615" width="86" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_12kckdq_di" bpmnElement="requestReceive">
+        <dc:Bounds x="222" y="672" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="197" y="715" width="86" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1ngnuzo_di" bpmnElement="Event_02d9gn3">
