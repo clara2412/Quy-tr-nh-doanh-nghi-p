@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Warranty Check Request",
+      "type": "text",
+      "id": "Field_0fy2mhj"
+    },
+    {
+      "values": [
+        {
+          "label": "Warrant Request"
+        },
+        {
+          "label": "Find Warranty Center"
+        }
+      ],
+      "label": "Request ",
+      "type": "select",
+      "id": "Field_0ghu03j",
+      "key": "reqType",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1uxt1f4"
+}

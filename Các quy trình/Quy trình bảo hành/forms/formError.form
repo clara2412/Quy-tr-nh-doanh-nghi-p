@@ -2,6 +2,11 @@
   "schemaVersion": 2,
   "components": [
     {
+      "text": "# Error Type",
+      "type": "text",
+      "id": "Field_05h6uxi"
+    },
+    {
       "values": [
         {
           "label": "Hư hỏng màn hình",

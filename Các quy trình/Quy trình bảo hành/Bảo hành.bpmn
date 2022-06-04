@@ -23,10 +23,6 @@
       <bpmn:outgoing>Flow_0k5xvma</bpmn:outgoing>
       <bpmn:outgoing>Flow_1xobyv4</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_19glgcg" name="Check Request">
-      <bpmn:incoming>Flow_101cqep</bpmn:incoming>
-      <bpmn:outgoing>Flow_1wolz5h</bpmn:outgoing>
-    </bpmn:task>
     <bpmn:exclusiveGateway id="Gateway_185ghhw">
       <bpmn:incoming>Flow_0e5jn30</bpmn:incoming>
       <bpmn:outgoing>Flow_1dlhmy8</bpmn:outgoing>
@@ -114,7 +110,7 @@
     <bpmn:sequenceFlow id="Flow_101cqep" sourceRef="StartEvent_1" targetRef="Activity_19glgcg" />
     <bpmn:sequenceFlow id="Flow_1wolz5h" sourceRef="Activity_19glgcg" targetRef="Gateway_0c2bfnj" />
     <bpmn:sequenceFlow id="Flow_0k5xvma" name="Find warranty center" sourceRef="Gateway_0c2bfnj" targetRef="Activity_1esm4ml">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">#{checkRequest =='Find Warrantly Center'}</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">#{checkRequest =='Find Warranty Center'}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_1xobyv4" name="Check warranty period" sourceRef="Gateway_0c2bfnj" targetRef="Activity_16prv64">
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">#{checkRequest == 'Warrant Request'}</bpmn:conditionExpression>
@@ -152,6 +148,10 @@
       <bpmn:outgoing>Flow_101cqep</bpmn:outgoing>
       <bpmn:messageEventDefinition id="MessageEventDefinition_0avsr36" messageRef="Message_1oicmcl" />
     </bpmn:startEvent>
+    <bpmn:userTask id="Activity_19glgcg" name="Check Request">
+      <bpmn:incoming>Flow_101cqep</bpmn:incoming>
+      <bpmn:outgoing>Flow_1wolz5h</bpmn:outgoing>
+    </bpmn:userTask>
   </bpmn:process>
   <bpmn:process id="Process_158jqwm" isExecutable="false">
     <bpmn:task id="Activity_1qqvhfi" name="Send request">
@@ -292,9 +292,6 @@
       <bpmndi:BPMNShape id="Gateway_0c2bfnj_di" bpmnElement="Gateway_0c2bfnj" isMarkerVisible="true">
         <dc:Bounds x="535" y="825" width="50" height="50" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_19glgcg_di" bpmnElement="Activity_19glgcg">
-        <dc:Bounds x="340" y="810" width="100" height="80" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_185ghhw_di" bpmnElement="Gateway_185ghhw" isMarkerVisible="true">
         <dc:Bounds x="825" y="625" width="50" height="50" />
       </bpmndi:BPMNShape>
@@ -384,6 +381,9 @@
         <bpmndi:BPMNLabel>
           <dc:Bounds x="200" y="875" width="81" height="40" />
         </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1fqjlea_di" bpmnElement="Activity_19glgcg">
+        <dc:Bounds x="340" y="810" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Participant_0ouzd8b_di" bpmnElement="Participant_1nonyaq" isHorizontal="true">
         <dc:Bounds x="920" y="1030" width="600" height="60" />
