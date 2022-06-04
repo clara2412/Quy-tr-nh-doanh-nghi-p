@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Warranty Period",
+      "type": "text",
+      "id": "Field_191557n"
+    },
+    {
+      "values": [
+        {
+          "label": "Expired"
+        },
+        {
+          "label": "Validate"
+        }
+      ],
+      "label": "Status",
+      "type": "select",
+      "id": "Field_05kcfmv",
+      "key": "productWarranty",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "WarrantyPeriod"
+}
