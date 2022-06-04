@@ -7,22 +7,30 @@
       "id": "Field_0qjwvho"
     },
     {
-      "label": "Vị trí ",
+      "label": "Warranty Center's address",
       "type": "textfield",
       "id": "Field_034dwrw",
-      "key": "field_0o8bxv5",
+      "key": "warrantysAddress",
       "validate": {
         "required": true
       }
     },
     {
-      "label": "Thời gian",
+      "label": "Date ",
       "type": "textfield",
       "id": "Field_1h9gk18",
-      "key": "field_0t59tuo",
+      "key": "dateSchedule",
       "validate": {
         "required": true
-      }
+      },
+      "description": "dd/mm/yyyy"
+    },
+    {
+      "label": "Time",
+      "type": "textfield",
+      "id": "Field_0ujz6do",
+      "key": "timeSchedule",
+      "description": "...PM/AM"
     }
   ],
   "type": "default",
