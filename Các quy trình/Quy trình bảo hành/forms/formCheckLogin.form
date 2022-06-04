@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Check Login",
+      "type": "text",
+      "id": "Field_1qili6x"
+    },
+    {
+      "values": [
+        {
+          "label": "Available"
+        },
+        {
+          "label": "Not Available"
+        }
+      ],
+      "label": "Status",
+      "type": "select",
+      "id": "Field_1r39m6g",
+      "key": "accStatus",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "checkLogin"
+}
