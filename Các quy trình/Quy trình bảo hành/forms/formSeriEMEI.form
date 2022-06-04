@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Seri/IMEI",
+      "type": "text",
+      "id": "Field_14jcb4z"
+    },
+    {
+      "label": "Seri number / EMEI",
+      "type": "textfield",
+      "id": "Field_0yk5b2a",
+      "key": "productCode",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Counselling"
+        },
+        {
+          "label": "Warranty"
+        }
+      ],
+      "label": "Purpose",
+      "type": "select",
+      "id": "Field_1yo59n4",
+      "key": "userChoice",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "seriemeiCheck"
+}
