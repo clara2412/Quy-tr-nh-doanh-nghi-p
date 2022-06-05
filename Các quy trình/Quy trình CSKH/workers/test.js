@@ -1,2 +1,3 @@
-const a = 10;
-module.exports = a;
+const pinCode = Math.floor(Math.random() * 8000 + 900);
+
+console.log(pinCode);

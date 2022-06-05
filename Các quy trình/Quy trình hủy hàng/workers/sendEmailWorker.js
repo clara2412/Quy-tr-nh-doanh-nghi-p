@@ -1,24 +1,21 @@
 const { Client, logger } = require("camunda-external-task-client-js");
 const { Variables } = require("camunda-external-task-client-js");
-const { text } = require("stream/consumers");
+const cstVariables = require("../Variables/variables.js")
 
 const config = { baseUrl: "http://localhost:8080/engine-rest", use: logger };
-const passwordClient = "Game0988";
 const client = new Client(config);
 
 client.subscribe("sendConfirmFeedbackEmail", async function({ task, taskService }) {
- 
   let customerEmail = task.variables.get("userEmail");
   let customerName = task.variables.get("userName");
   let customerSurname = task.variables.get("userSurname");
-
-
+  
   var nodemailer = require('nodemailer');
   var transporter = nodemailer.createTransport({   
     service: 'gmail',
     auth: {
-      user: '20521277@gm.uit.edu.vn',
-      pass: 'Game0988'
+      user: cstVariables.userEmail,
+      pass: cstVariables.userPass
     },
     tls:{
           rejectUnauthorized: false
@@ -26,10 +23,10 @@ client.subscribe("sendConfirmFeedbackEmail", async function({ task, taskService 
   });
   
   var mailOptions = {
-    from: '20521277@gm.uit.edu.vn',
+    from: cstVariables.userEmail,
     to: `${customerEmail}`,
-    subject: '  TITLE ',
-    text:  '',
+    subject: '  Thank you for your feedback  ',
+    text:  cstVariables.emailContent,
   };
   transporter.sendMail(mailOptions, function(error, info){
     if (error) {

@@ -9,147 +9,147 @@
     {
       "values": [
         {
-          "label": "Hư hỏng màn hình",
+          "label": "Screen Damage",
           "value": "value"
         },
         {
-          "label": "Màn hình + Mặt sau",
+          "label": "Screen+Rear Cover",
           "value": "value"
         },
         {
-          "label": "Màn hình + Nước",
+          "label": "Screen+Water",
           "value": "value"
         },
         {
-          "label": "Màn hình + Bo mạch",
+          "label": "Screen+ Board ",
           "value": "value"
         },
         {
-          "label": "Màn hình + Rear + Bo mạch",
+          "label": "Screen+ Rear + Board",
           "value": "value"
         }
       ],
-      "label": "Hư hỏng màn hình",
+      "label": "Damage screen",
       "type": "select",
       "id": "Field_0euubp6",
-      "key": "loi1"
+      "key": "screenEr"
     },
     {
       "values": [
         {
-          "label": "Hư hỏng vật lý",
+          "label": "Physical Damage",
           "value": "value"
         },
         {
-          "label": "Hư hỏng do nước",
+          "label": "Water Damage",
           "value": "value"
         }
       ],
-      "label": "Hư hỏng khác ",
+      "label": "Screen Other",
       "type": "select",
       "id": "Field_0xisiai",
-      "key": "loi2"
+      "key": "screenOther"
     },
     {
       "values": [
         {
-          "label": "Đen màn hình",
+          "label": "Dark Screen",
           "value": "value"
         },
         {
-          "label": "Lỗi màn hình",
+          "label": "Display Error",
           "value": "value"
         },
         {
-          "label": "Sọc màn hình",
+          "label": "Line on Display",
           "value": "value"
         },
         {
-          "label": "Điểm chết/ Lỗi điểm ảnh",
+          "label": "Dead Pixel/Pixel Error",
           "value": "value"
         },
         {
-          "label": "Màn hình chớp tắt",
+          "label": "Screen Blinking",
           "value": "value"
         },
         {
-          "label": "Lỗi cảm ứng",
+          "label": "Touch Screen Error",
           "value": "value"
         }
       ],
-      "label": "Màn hình",
+      "label": "Display",
       "type": "select",
       "id": "Field_1n6nyxe",
-      "key": "loi3"
+      "key": "displayEr"
     },
     {
       "values": [
         {
-          "label": "Không nguồn",
+          "label": "No Power",
           "value": "value"
         },
         {
-          "label": "Tự tắt nguồn",
+          "label": "Auto Power Off",
           "value": "value"
         },
         {
-          "label": "Tự tắt nguồn lặp lại",
+          "label": "Cyclic power Off",
           "value": "value"
         },
         {
-          "label": "Phím nguồn",
+          "label": "Power Button",
           "value": "value"
         }
       ],
-      "label": "Nguồn",
+      "label": "Power",
       "type": "select",
       "id": "Field_04r84i6",
-      "key": "loi4"
+      "key": "powerEr"
     },
     {
       "values": [
         {
-          "label": "Không sạc",
+          "label": "No Charge",
           "value": "value"
         },
         {
-          "label": "Lỗi sạc khác",
+          "label": "Other Charge Issue",
           "value": "value"
         },
         {
-          "label": "Hư hỏng pin vật lý",
+          "label": "Physical Battery Damage",
           "value": "value"
         },
         {
-          "label": "Hư hỏng bộ sạc vật lý",
+          "label": "Physical Charger Damage",
           "value": "value"
         },
         {
-          "label": "Hao pin",
+          "label": "Short battery time",
           "value": "value"
         },
         {
-          "label": "Sạc chậm",
+          "label": "Slow Charge",
           "value": "value"
         },
         {
-          "label": "Sạc không dây",
+          "label": "Wireless Charging",
           "value": "value"
         }
       ],
-      "label": "Sạc pin/pin/Bộ sạc",
+      "label": "Charge/Battery/Charger",
       "type": "select",
       "id": "Field_0duipn5",
-      "key": "loi5"
+      "key": "chargeEr"
     },
     {
       "values": [
         {
-          "label": "Loa",
+          "label": "Speaker",
           "value": "value"
         },
         {
-          "label": "Tai nghe",
+          "label": "Head phones",
           "value": "value"
         },
         {
@@ -157,39 +157,39 @@
           "value": "value"
         },
         {
-          "label": "Rung",
+          "label": "Vibration",
           "value": "value"
         },
         {
-          "label": "Phím âm lượng",
-          "value": "value"
+          "value": "value",
+          "label": "Volume Control"
         },
         {
-          "label": "Chất lượng âm thanh",
+          "label": "Sound Quality",
           "value": "value"
         }
       ],
-      "label": "Âm thanh/ Rung",
+      "label": "Sound/Vibration",
       "type": "select",
       "id": "Field_18jehvt",
-      "key": "loi6"
+      "key": "soundEr"
     },
     {
       "values": [
         {
-          "label": "Không có dịch vụ",
+          "label": "No Service",
           "value": "value"
         },
         {
-          "label": "Không tín hiệu",
+          "label": "No reception",
           "value": "value"
         },
         {
-          "label": "Tín hiệu yếu(Cuộc gọi)",
+          "label": "Weak signal(Call)",
           "value": "value"
         },
         {
-          "label": "Chất lượng cuộc gọi",
+          "label": "Call Quality",
           "value": "value"
         },
         {
@@ -201,95 +201,91 @@
           "value": "value"
         },
         {
-          "label": "Value",
-          "value": "value"
-        },
-        {
           "label": "GPS",
           "value": "value"
         }
       ],
-      "label": "Mạng",
+      "label": "Network",
       "type": "select",
       "id": "Field_05gug17",
-      "key": "loi7"
+      "key": "netEr"
     },
     {
       "values": [
         {
           "value": "value",
-          "label": "Máy ảnh sau "
+          "label": "Rear Camera"
         },
         {
-          "label": "Máy ảnh trước",
+          "label": "Front Camera",
           "value": "value"
         },
         {
-          "label": "Đèn Flash",
+          "label": "Flash",
           "value": "value"
         }
       ],
-      "label": "Máy ảnh",
+      "label": "Camera",
       "type": "select",
       "id": "Field_07zrq79",
-      "key": "loi8"
+      "key": "camEr"
     },
     {
       "values": [
         {
-          "label": "Cập nhật phần mềm ",
+          "label": "S/W Upgrade",
           "value": "value"
         },
         {
-          "label": "Sao lưu dữ liệu",
+          "label": "Data Back Up",
           "value": "value"
         },
         {
-          "label": "Lỗi ứng dụng",
+          "label": "App Issue",
           "value": "value"
         },
         {
-          "label": "Treo máy",
+          "label": "Freezing",
           "value": "value"
         },
         {
-          "label": "Nóng máy",
+          "label": "Overheating",
           "value": "value"
         },
         {
-          "label": "Chậm máy",
+          "label": "Slow Perfomance",
           "value": "value"
         },
         {
-          "label": "Hệ điều hành",
+          "label": "Operating System",
           "value": "value"
         }
       ],
-      "label": "Phần mềm/ Hiệu ứng",
+      "label": "Software/Performance",
       "type": "select",
       "id": "Field_0xilgpe",
-      "key": "loi9"
+      "key": "softEr"
     },
     {
       "values": [
         {
-          "label": "Khóa",
+          "label": "Lock",
           "value": "value"
         }
       ],
-      "label": "Khóa",
+      "label": "Lock",
       "type": "select",
       "id": "Field_07nua7k",
-      "key": "loi10"
+      "key": "lockEr"
     },
     {
       "values": [
         {
-          "label": "Bộ sạc",
+          "label": "Charger",
           "value": "value"
         },
         {
-          "label": "Tai nghe",
+          "label": "Head phones",
           "value": "value"
         },
         {
@@ -297,16 +293,16 @@
           "value": "value"
         }
       ],
-      "label": "Phụ kiện",
+      "label": "Accessory",
       "type": "select",
       "id": "Field_0xego2m",
-      "key": "loi11"
+      "key": "accessoryEr"
     },
     {
-      "label": "Khác",
+      "label": "Other",
       "type": "textfield",
       "id": "Field_0wk7bej",
-      "key": "loi12"
+      "key": "otherEr"
     }
   ],
   "type": "default",

@@ -13,7 +13,9 @@
       "key": "pinCode",
       "validate": {
         "required": true,
-        "minLength": 4
+        "minLength": 4,
+        "regularExpressionPattern": "#{pinCheck}",
+        "maxLength": 4
       }
     }
   ],
