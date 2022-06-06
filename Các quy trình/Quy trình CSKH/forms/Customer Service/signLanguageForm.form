@@ -7,10 +7,21 @@
       "id": "Field_1mfz326"
     },
     {
-      "label": "Email or Phone Number",
+      "label": "Phone Number",
       "type": "textfield",
       "id": "Field_1dqc16n",
       "key": "eUserAddress",
+      "validate": {
+        "required": true,
+        "minLength": 10,
+        "maxLength": 11
+      }
+    },
+    {
+      "label": "Email",
+      "type": "textfield",
+      "id": "Field_1ms15kq",
+      "key": "eUserEmail",
       "validate": {
         "required": true
       }

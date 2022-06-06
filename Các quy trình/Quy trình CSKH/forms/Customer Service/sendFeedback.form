@@ -70,12 +70,6 @@
       }
     },
     {
-      "label": "Please select if you are a Business Customer",
-      "type": "checkbox",
-      "id": "Field_16cnw1c",
-      "key": "isBusinessUser"
-    },
-    {
       "text": "# Request",
       "type": "text",
       "id": "Field_1ny50fp"
@@ -105,12 +99,6 @@
       "type": "textfield",
       "id": "Field_0ttb7wx",
       "key": "fileAttachment"
-    },
-    {
-      "label": "I have read and agree to the Samsung Privacy Policy.",
-      "type": "checkbox",
-      "id": "Field_1fb66nk",
-      "key": "isAcceptPrivacyPolicy"
     }
   ],
   "type": "default",

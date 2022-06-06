@@ -21,7 +21,9 @@
       "id": "Field_1cvx9fl",
       "key": "userPhoneNumber",
       "validate": {
-        "required": true
+        "required": true,
+        "minLength": 10,
+        "maxLength": 11
       }
     },
     {

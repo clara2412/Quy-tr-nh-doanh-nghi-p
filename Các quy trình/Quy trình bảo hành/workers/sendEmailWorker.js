@@ -5,10 +5,8 @@ const cstVariables = require("../Variables/variables.js")
 const config = { baseUrl: "http://localhost:8080/engine-rest", use: logger };
 const client = new Client(config);
 
-client.subscribe("sendConfirmFeedbackEmail", async function({ task, taskService }) {
+client.subscribe("sendConfirmEmail", async function({ task, taskService }) {
   let customerEmail = task.variables.get("userEmail");
-  let customerName = task.variables.get("userName");
-  let customerSurname = task.variables.get("userSurname");
   
   var nodemailer = require('nodemailer');
   var transporter = nodemailer.createTransport({   
@@ -25,8 +23,8 @@ client.subscribe("sendConfirmFeedbackEmail", async function({ task, taskService 
   var mailOptions = {
     from: cstVariables.userEmail,
     to: `${customerEmail}`,
-    subject: '  Thank you for your feedback  ',
-    text:  cstVariables.emailContent,
+    subject: '  Thank you for choosing our service  ',
+    text:  ` Email Content... `,
   };
   transporter.sendMail(mailOptions, function(error, info){
     if (error) {

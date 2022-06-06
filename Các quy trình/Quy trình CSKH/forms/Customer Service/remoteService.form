@@ -24,6 +24,15 @@
         "required": true,
         "maxLength": 11
       }
+    },
+    {
+      "label": "Email",
+      "type": "textfield",
+      "id": "Field_1rti0z9",
+      "key": "userEmail",
+      "validate": {
+        "required": true
+      }
     }
   ],
   "type": "default",
